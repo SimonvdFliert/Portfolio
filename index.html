@@ -37,14 +37,17 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+        <!-- Masthead   <button class="btn-1 button btn-primary btn-xl text-uppercase m-1" id="Contactbtn" href=""><span>Contact me</span></button> -->
         <header class="masthead bg-image">
             <div class="container pt-5 section-landing"> 
                 <div class="masthead-heading">Welkom to my Portfolio!</div>
                 <div class="masthead-subheading">My name is Simon van de Fliert</div>
                 <div class="masthead-subheading">An enthusiastic developer focused in AI and Tech</div>
-                <button class="btn-1 button btn-primary btn-xl text-uppercase m-1" id="CVbtn" href="#services"><span>Get my CV</span></button>
-                <button class="btn-1 button btn-primary btn-xl text-uppercase m-1" id="Contactbtn" href="#services"><span>Contact me</span></button>
+                
+                
+                <button id="fileRequest" class="btn-1 button btn-primary btn-xl text-uppercase m-1"><span>Get my CV</span></button>
+                
+                <button class="btn-1 button btn-primary btn-xl text-uppercase m-1" type="button" onClick="document.getElementById('contact').scrollIntoView();"> <span>Contact me</span> </button>
           </div>
         </header>
         
@@ -53,7 +56,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">This section gives a short description of my interests and experiences. </h3>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -124,12 +127,11 @@
     
             <div class="section-title">
                 <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
     
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
-                <h3 class="resume-title">Sumary</h3>
+                <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                     <h4>Simon van de Fliert</h4>
                     <p><em> International student fascinated by innovation, artificial intelligence, and sports. Experienced in both business and development, giving me a broad foundation to quickly identify, communicate 
@@ -337,8 +339,7 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x skill-Csharp"></i>
-                            <!--<i class="fas fa-lock fa-stack-1x fa-inverse"></i>-->
-                            <i class="fa-stack-1x fa-inverse"> <img class="csharp-logo pt-3" src="/assets/pngegg.png" alt="C#"></i>
+                            <i class="fa-stack-1x fa-inverse"> <img class="csharp-logo pt-3" src="/assets/Csharp.png" alt="C#"></i>
                         </span>
                         <h4 class="my-3">C# MVC</h4>
                         <p class="text-muted">A newly acquired skill, able to use C#'s classes and inheritance to develop full scale websites by combining HTML5, Javascript, CSS3 and C# together with cshtml. Primarily used to create model-view-controller applications.</p>

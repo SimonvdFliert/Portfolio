@@ -52,3 +52,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const download = document.getElementById("fileRequest");
+
+download.addEventListener('click', request);
+
+function request() {
+    window.location = 'CV_English.pdf';
+}
+
