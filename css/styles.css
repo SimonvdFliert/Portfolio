@@ -145,7 +145,16 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height:100%;
+  width:100%;
+  padding:0;
 }
+
+.section-landing {
+  height:100vh;
+  width: 100vw;
+}
+
 
 hr {
   margin: 1rem 0;
@@ -659,7 +668,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -3084,7 +3093,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #e0b107;
   border-color: #ffc800;
 }
 .btn-primary:hover {
@@ -7766,6 +7775,34 @@ textarea.form-control-lg {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
+.skill-python{
+  color:green;
+}
+
+.skill-HTML{
+  color:orangered;
+}
+
+.skill-JS {
+  color: rgb(226, 211, 4);
+}
+
+.skill-css{
+  color: rgb(11, 82, 214);
+}
+
+.skill-Csharp {
+  color: rgb(235, 194, 84);
+}
+
+.csharp-logo{
+  width: 50% !important;
+  height: auto;
+  content: center; 
+  
+}
+
+
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -11456,13 +11493,13 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg");
-  
+  background-image: url("../assets/img/pexels-neo-2653362.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11706,7 +11743,8 @@ button:hover span::before, button:hover span::after{
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  background-color: rgb(0, 0, 0);
+  border: 7px solid #f1c42f;
   border-radius: 100%;
   
 }
