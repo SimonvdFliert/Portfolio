@@ -433,7 +433,7 @@
                     <h2 class="section-heading text-uppercase">Contact Me</h2>
                     <h3 class="section-subheading text-light">Let's work together!</h3>
                 </div>
-                <form id="contactForm" name="contactForm" data-netlify="true">
+                <form id="contactForm" name="contactForm" data-netlify="true" data-netlify-recaptcha="true">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -459,6 +459,9 @@
                                 <textarea class="form-control" id="message" placeholder="Your Message" required></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
+                        </div>
+                        <div>
+                            <div class="mb-3" data-netlify-recaptcha="true"></div>
                         </div>
                     </div>
                     <button type="submit" class="btn-1 button btn-primary"><span>Submit</span> </button>
