@@ -61,3 +61,4 @@ function request() {
     window.location = 'CV_English.pdf';
 }
 
+document.body.style.opacity = 1;
