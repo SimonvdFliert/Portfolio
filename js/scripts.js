@@ -61,6 +61,6 @@ function request() {
     window.location = 'CV_English.pdf';
 }
 
-$(document).ready(function() {
+window.addEventListener('load', function () {
     document.getElementsByTagName("html")[0].style.visibility = "visible";
-  });
+});
