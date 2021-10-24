@@ -71,8 +71,7 @@
   --bs-body-bg: #fff;
 }
 
-.js-hide body{display:none}
-
+html { visibility:hidden; }
 *,
 *::before,
 *::after {
