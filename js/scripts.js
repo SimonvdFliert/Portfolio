@@ -61,4 +61,6 @@ function request() {
     window.location = 'CV_English.pdf';
 }
 
-$("body").fadeIn("slow");
+jQuery(window).load(function() {
+    jQuery("body").fadeIn("slow");
+    });
