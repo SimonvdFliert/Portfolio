@@ -433,26 +433,37 @@
                     <h2 class="section-heading text-uppercase">Contact Me</h2>
                     <h3 class="section-subheading text-light">Let's work together!</h3>
                 </div>
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                      <label>Your Name: <input type="text" name="name" /></label>   
+                <form name="simpleContactForm" method="POST" id="contactForm" class="contact-form">
+                    <p class="form-row">
+                        <label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
+                        <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
+                    <p class="form-row">
+                        <label id="contact-form-email-label" for="contact-form-email" class="form-label">Email address</label>
+                        <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
+                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                     </p>
-                    <p>
-                      <label>Your Role: <select name="role[]" multiple>
-                        <option value="leader">Leader</option>
-                        <option value="follower">Follower</option>
-                      </select></label>
+                    <p class="form-row">
+                        <label id="contact-form-phone-label" for="contact-form-phone" class="form-label">Phone Number</label>
+                        <input type="phone" name="phone" id="contact-form-phone" aria-labelledby="contact-form-phone-label" class="form-input" />
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
+                    <p class="form-row">
+                        <label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label>
+                        <textarea
+                            name="message"
+                            id="contact-form-message"
+                            aria-labelledby="contact-form-message-label"
+                            class="form-textarea"
+                            rows="7"
+                        ></textarea>
                     </p>
-                    <p>
-                      <button type="submit">Send</button>
+                    <p class="form-row form-submit">
+                        <button type="submit" class="button">Send Message</button>
                     </p>
-                  </form>
+                </form>
             </div>
         </section>
 
