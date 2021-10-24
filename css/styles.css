@@ -71,6 +71,8 @@
   --bs-body-bg: #fff;
 }
 
+.js-hide body{display:none}
+
 *,
 *::before,
 *::after {
