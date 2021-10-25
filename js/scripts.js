@@ -64,3 +64,8 @@ function request() {
 window.addEventListener('load', function () {
     document.getElementsByTagName("html")[0].style.visibility = "visible";
 });
+
+
+function LungCancer_Code(){
+    window.open('https://github.com/SimonvdFliert/Lung-Cancer-Prediction/blob/main/Lung%20Cancer%20Prediction.ipynb')
+}
