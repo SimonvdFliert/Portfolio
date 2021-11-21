@@ -58,7 +58,7 @@ const download = document.getElementById("fileRequest");
 download.addEventListener('click', request);
 
 function request() {
-    window.location = 'CV_English.pdf';
+    window.location = 'Updated CV.pdf';
 }
 
 window.addEventListener('load', function () {
