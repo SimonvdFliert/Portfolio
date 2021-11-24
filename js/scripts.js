@@ -58,7 +58,7 @@ const download = document.getElementById("fileRequest");
 download.addEventListener('click', request);
 
 function request() {
-    window.location = 'Updated CV.pdf';
+    window.location = 'CV Simon van de Fliert.pdf';
 }
 
 window.addEventListener('load', function () {
