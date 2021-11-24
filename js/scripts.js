@@ -73,3 +73,7 @@ function LungCancer_Code(){
 function Restaurant_Code(){
     window.open('https://github.com/DavidNP96/Chatbot_group_13')
 }
+
+function Advanced_Machine_Learning_Code(){
+    window.open('https://github.com/SimonvdFliert/Advanced-ML/tree/main')
+}
