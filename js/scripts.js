@@ -77,3 +77,7 @@ function Restaurant_Code(){
 function Advanced_Machine_Learning_Code(){
     window.open('https://github.com/SimonvdFliert/Advanced-ML/tree/main')
 }
+
+function Pattern_Recognition_Assignment_Code(){
+    window.open('https://github.com/SimonvdFliert/Advanced-ML/tree/main')
+}
