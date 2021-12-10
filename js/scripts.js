@@ -79,5 +79,5 @@ function Advanced_Machine_Learning_Code(){
 }
 
 function Pattern_Recognition_Assignment_Code(){
-    window.open('https://github.com/SimonvdFliert/Advanced-ML/tree/main')
+    window.open('https://github.com/SimonvdFliert/Pattern_Recognition_Assignment')
 }
