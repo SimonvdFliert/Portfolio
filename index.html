@@ -232,6 +232,17 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Computer Vision.png" alt="..." />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
                                 <img class="img-fluid" src="assets/img/portfolio/Handwritten Digit Classification.png" alt="..." />
                             </a>
                         </div>
@@ -239,7 +250,7 @@
                     <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 4-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -542,6 +553,42 @@
                             <div class="col-lg-8">
                                 <div class="modal-body bg-light">
                                     <!-- Project details-->
+                                    <h2 class="text-uppercase">Transforming videos to voxel models</h2>
+                                    <p class="item-intro text-muted">A course project for the masters course Computer Vision</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Computer Vision.png" alt="..." />
+                                    <p>For the course Computer Vision at Utrecht University students were given a dataset containing several cameras. Using OpenCV and C++, we were tasked with calculating the intrinsic and extrinsic parameters of the cameras, 
+                                        afterwhich we seperated a video in a foreground and background by highlighting changes in between videos. Using this mask, we created a voxel model and have been able to track the voxel models moving around using K-means clustering.
+                                    </p>
+                                   <!-- <button class="btn-1 button btn-primary" data-bs-dismiss="modal" type="button">
+                                      <span>Go to Project </span>
+                                    </button>-->
+                                    <button onclick= "Computer_Vision_Voxels_Assignment_Code()" class="btn-1 button btn-primary">
+                                        <span> Go to Code</span>
+                                    </button>
+                                    <button onclick= "Computer_Vision_Video()" class="btn-1 button btn-primary">
+                                        <span> Demo Video</span>
+                                    </button>
+                                    <button class="btn-1 button btn-primary" data-bs-dismiss="modal" type="button">
+                                        
+                                       <span><i class="fas fa-times me-1"></i> Close Project</span> 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body bg-light">
+                                    <!-- Project details-->
                                     <h2 class="text-uppercase">Analysis of Handwritten Digits</h2>
                                     <p class="item-intro text-muted">A course project for the masters course Pattern Recognition</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Handwritten Digit Classification.png" alt="..." />
@@ -566,8 +613,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -581,8 +628,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Reinforcement Learning.png" alt="..." />
                                     <p>For the course Advanced Machine Learning at Utrecht University students were tasked with completing several smaller exercises to develop an 
                                         understanding of the material. In total this project will consist of four smaller coding exercises, where topics such as Multi-armed bandits, Policy gradient
-                                        methods and the PC algorithm will be discussed. This project is still in progress and will be completed before this February. This project will therefore
-                                        be regularly updated.</p>
+                                        methods, Structural Causal Models and the PC algorithm have been discussed.</p>
                                     <button onclick= "Advanced_Machine_Learning_Code()" class="btn-1 button btn-primary">
                                         <span> Go to Code</span>
                                     </button>

@@ -81,3 +81,11 @@ function Advanced_Machine_Learning_Code(){
 function Pattern_Recognition_Assignment_Code(){
     window.open('https://github.com/SimonvdFliert/Pattern_Recognition_Assignment')
 }
+
+function Computer_Vision_Voxels_Assignment_Code(){
+    window.open('https://github.com/SimonvdFliert/Computer-vision-UU')
+}
+
+function Computer_Vision_Video(){
+    window.open('https://youtu.be/vg7X3mC8JY8')
+}
