@@ -58,13 +58,16 @@ const download = document.getElementById("fileRequest");
 download.addEventListener('click', request);
 
 function request() {
-    window.location = 'CV Simon van de Fliert.pdf';
+    window.location = 'CV.pdf';
 }
 
 window.addEventListener('load', function () {
     document.getElementsByTagName("html")[0].style.visibility = "visible";
 });
 
+function Thesis_Code(){
+    window.open('https://github.com/SimonvdFliert/MscThesis')
+}
 
 function LungCancer_Code(){
     window.open('https://github.com/SimonvdFliert/Lung-Cancer-Prediction/blob/main/Lung%20Cancer%20Prediction.ipynb')
